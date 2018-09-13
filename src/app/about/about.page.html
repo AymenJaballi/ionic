@@ -4,4 +4,44 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+
+    
+  <ion-card>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="https://i.imgur.com/dGo8DOk.jpg">
+      </ion-avatar>
+      <h2>Marty McFly</h2>
+    </ion-item>
+  
+    <img src="https://image.freepik.com/free-vector/login-form-template-with-avatar_23-2147725576.jpg">
+  
+    <ion-card-content>
+      <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+    </ion-card-content>
+  
+    <ion-row>
+      <ion-col>
+        <ion-button icon-start clear small color="{{color}}"  (click)="like()">
+          <ion-icon name="thumbs-up" ></ion-icon>
+          <div>{{num}}Likes</div>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button icon-start clear small (click)="share()" >
+          <ion-icon name="share-alt"></ion-icon>
+          <div>share</div>
+        </ion-button>
+      </ion-col>
+      <ion-col center text-center>
+        <ion-note>
+          11h ago
+        </ion-note>
+      </ion-col>
+    </ion-row>
+  
+  </ion-card>
+
+</ion-content>
