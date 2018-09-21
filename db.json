@@ -116,8 +116,7 @@
   "login":
   [
     {
-      "user":"user" ,
-      "id":0
+      "user":"user" 
     }
   ]
 }
